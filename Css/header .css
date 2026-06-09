@@ -15,11 +15,16 @@
  /* background-color: brown; */
 }
 #menu-container{
+   cursor: pointer;
    display: flex;
    gap: 20px;
    font-size: 20px;
-   color: black;
+   /* color: rgb(189, 57, 57); */
    /* padding-right: 30px; */
+
+}
+#menu-container a:hover{
+   color:#15ff00;
 
 }
 
