@@ -87,6 +87,7 @@ img {
     margin-top: 20px;
 }
 #texa-button{
+    cursor: pointer;
     color: white;
     display: flex;
     justify-content: center;
@@ -94,6 +95,9 @@ img {
     padding: 20px;
     border-radius: 10px;
 
+}
+#texa-button:hover{
+    background-color: blueviolet;
 }
 #texa-container span i{
     color: #006eff;
@@ -134,10 +138,9 @@ img {
     
 }
 #box-c{
-    background: #ffffff;
+    background: #ffffff;pointer;
     padding: 20px;
     border-radius: 20px;
-
 }
 #box-cc{
     background-color: hsl(220, 41%, 90%);
@@ -149,6 +152,7 @@ img {
     width: 100%;
 }
 #texb-button{
+    cursor: pointer;
     color: white;
     display: flex;
     justify-content: center;
@@ -157,7 +161,11 @@ img {
     border-radius: 10px;
 
 }
+#texb-button:hover{
+    background-color: blueviolet;
+}
 #texc-button{
+    cursor: pointer;
     color: white;
     display: flex;
     justify-content: center;
@@ -165,6 +173,9 @@ img {
     padding: 20px;
     border-radius: 10px;
 
+}
+#texc-button:hover{
+    background-color: blueviolet;
 }
 #title-1c{
     color: blue;
