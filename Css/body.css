@@ -18,6 +18,7 @@
 }
 
 #boxes-container{
+    background-color: brown;
     display: flex;
     justify-content: center;
     /* text-align: center; */
@@ -30,19 +31,19 @@
     background: rgba(247, 243, 13, 0.979);
     padding: 5px;
     height: 690px;
-    width: 400px;
+    width: 300px;
 }
 #box-B{
     background: green;
     padding: 5px;
     height: 690px;
-    width:400px;
+    width:300px;
 }
 #box-C{
     background: blue ;
     padding: 5px;
     height: 690px;
-    width: 400px;
+    width: 300px;
 }
 #iphone{
     text-decoration: underline;
@@ -66,7 +67,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     
 }
@@ -133,12 +134,12 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     
 }
 #box-c{
-    background: #ffffff;pointer;
+    background: #ffffff;
     padding: 20px;
     border-radius: 20px;
 }
@@ -148,7 +149,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    height: 200px;
+    height: 150px;
     width: 100%;
 }
 #texb-button{
@@ -198,6 +199,12 @@ img {
 }
 #texc-container span i{
     margin-bottom: 15px;
+}
+@media(max-width:965px){
+    #boxes-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, mimax(280px, 1fr));
+    }
 }
 
 

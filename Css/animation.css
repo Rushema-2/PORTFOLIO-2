@@ -1,0 +1,51 @@
+*,
+::after{
+    margin: 0;
+    padding: 0;
+}
+::before{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+    width: 93.3%;
+    height: 100%;
+    background-color: aqua;
+    transition: all 0.8s;
+    animation-name: scroll;
+    animation-duration: 1s;
+    overflow-y: hidden;
+    /* display: none; */
+    backdrop-filter: blur;
+    
+    
+}
+h2{
+    color: blueviolet;
+}
+p{
+    color: rgb(140, 127, 255);
+}
+span{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+marquee{
+    background-color: crimson;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    color: azure;
+}
+@keyframes spiner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
