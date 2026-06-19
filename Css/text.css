@@ -1,0 +1,33 @@
+*,
+
+body{ text-align:center; 
+    font-family:Georgia, serif;
+     background:white; 
+    } 
+ .title{ 
+   font-size:80px;
+   background:linear-gradient( 90deg, orange, green, blue, purple ); 
+   -webkit-background-clip:text; 
+   -webkit-text-fill-color:transparent; 
+        } 
+ .subtitle{ 
+   font-size:60px; 
+   background:linear-gradient( 90deg, red, orange, green, blue, purple ); 
+   -webkit-background-clip:text; 
+   -webkit-text-fill-color:transparent;
+         } 
+ .words{
+   margin-top:30px;
+    display:flex; 
+   flex-wrap:wrap;
+   justify-content:center;
+   align-items: center;
+   gap:20px; 
+                } 
+.words span{
+   font-size:40px;
+   font-weight:bold;
+    background:linear-gradient( 90deg, red, orange, rgb(10, 143, 27), rgb(21, 24, 185), rgb(150, 88, 165) ); 
+    -webkit-background-clip:text; 
+     -webkit-text-fill-color:transparent; 
+  }

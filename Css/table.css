@@ -34,5 +34,56 @@ td{
     border: 1px solid black;
     padding: 5px 10px;
 } 
+h2{
+    font-size: 60px;
+    color: rgb(0, 81, 255);
+}
+.task1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.green{
+    color: rgb(3, 87, 3);
+}
+.red{
+    color: red;
+}
+.black{
+    color: black
+}
+.black1{
+    color: rgb(65, 28, 28);;
+}
+.lightgreen{
+    color: rgb(238, 211, 61);
+}
+.lightgreen1{
+color: rgb(91, 218, 123);
+}
+.blue{
+    color: blue;
+}
+.orenge{
+    color: orange;
+}
+.gray{
+    color: rgb(124, 106, 106);
+}
+.sky{
+    color: rgb(70, 170, 209);
+}
+.sky1{
+    color: rgb(155, 135, 136);
+}
+Gradient-text{
+    font-size: 50px;
+    font-weight: bold;
+    background:linear-gradient(90deg, gold, rgb(13, 131, 42),blue);
+    -webkit-background-clip:text; 
+     -webkit-text-fill-color:transparent;
+}
+
+
 
 
