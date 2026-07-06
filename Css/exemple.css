@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(31, 29, 29);
+}
+#loader{ 
+    
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    margin: -20px -50px;
+    gap:10px
+}
+#loader div{
+    width: 20px;
+    height: 20px;
+    background: #f8f7f7;
+    border-radius: 50%;
+    
+
+
+}
+@keyframes animate{
+    0%{
+        left:100px;
+        top:0
+    }
+    80%{
+        left: 0;
+        top:o;
+    }
+    85%{
+        left: 0;
+        top:-20px;
+        width: 20px;
+        height: 20px;
+    }
+    90%{
+        width: 40px;
+        height: 15px;
+    }
+    95%{
+        left: 100px;
+        top:20px;
+        width: 20px;
+        height: 20px;
+    }
+    100%{
+        left:100px;
+        top:0
+    }
+}
+
+#d1{
+    animation: animate linear infinite 2s; 
+    
+   
+}
+#d2{
+    animation: animate linear infinite 2s;
+    
+}
+#d3{
+    animation: animate 2s linear infinite -8s;
+   
+}
+#d4{
+    animation: animate 2s linear infinite -1.2s;
+
+}
+#d5{
+    animation: animate 2s linear infinite -1.25s;
+   
+}
+
+
